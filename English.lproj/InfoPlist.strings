@@ -1,4 +1,5 @@
 /* Localized versions of Info.plist keys */
 
-CFBundleGetInfoString = "v1.0, Copyright 2009 Apple Inc.";
-NSHumanReadableCopyright = "Copyright © 2009, Apple Inc.";
+CFBundleName = "TargetGallery";
+CFBundleGetInfoString = "v1.1, Copyright 2009-2011 Apple Inc.";
+NSHumanReadableCopyright = "Copyright © 2009-2011, Apple Inc.";

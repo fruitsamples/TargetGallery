@@ -2,7 +2,7 @@
      File: TargetGalleryController.h 
  Abstract: The main controller for this application. This class demonstrates how events may flow up the responder chain to the NSWindowController by implementing mouse tracking to drag targets when the TargetGallery is in edit mode.
   
-  Version: 1.0 
+  Version: 1.1 
   
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple 
  Inc. ("Apple") in consideration of your agreement to the following 
@@ -42,7 +42,7 @@
  STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE 
  POSSIBILITY OF SUCH DAMAGE. 
   
- Copyright (C) 2009 Apple Inc. All Rights Reserved. 
+ Copyright (C) 2011 Apple Inc. All Rights Reserved. 
   
 */
 
@@ -50,7 +50,7 @@
 
 @class TargetObject, TargetGallery;
 
-@interface TargetGalleryController : NSWindowController {
+@interface TargetGalleryController : NSWindowController <NSApplicationDelegate> {
     IBOutlet TargetGallery *_targetGallery;
     TargetObject *_dragTarget;
     NSTimeInterval _lastDragTime;

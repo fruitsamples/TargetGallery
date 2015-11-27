@@ -2,7 +2,7 @@
      File: TargetGallery.h 
  Abstract: A basic view that animates the movement of "targets". A target is simply an object that associates a view with a velocity. This class adds each target's view as a subview and moves the view according to its associated veloicty.
   
-  Version: 1.0 
+  Version: 1.1 
   
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple 
  Inc. ("Apple") in consideration of your agreement to the following 
@@ -42,7 +42,7 @@
  STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE 
  POSSIBILITY OF SUCH DAMAGE. 
   
- Copyright (C) 2009 Apple Inc. All Rights Reserved. 
+ Copyright (C) 2011 Apple Inc. All Rights Reserved. 
   
 */
 

@@ -2,7 +2,7 @@
      File: TargetView.h 
  Abstract: A simple NSImageView subclass that draws little green circles where the user clicks on top of the image.
   
-  Version: 1.0 
+  Version: 1.1 
   
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple 
  Inc. ("Apple") in consideration of your agreement to the following 
@@ -42,7 +42,7 @@
  STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE 
  POSSIBILITY OF SUCH DAMAGE. 
   
- Copyright (C) 2009 Apple Inc. All Rights Reserved. 
+ Copyright (C) 2011 Apple Inc. All Rights Reserved. 
   
 */
 
